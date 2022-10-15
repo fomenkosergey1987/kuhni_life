@@ -1,0 +1,160 @@
+/* start style page blog-article */
+.wr-page-blog-article {
+  padding: 0 20px 0 30px;
+  overflow: hidden; }
+  .wr-page-blog-article h1 {
+    font-size: 34px;
+    font-weight: 500; }
+  .wr-page-blog-article .blog-article {
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #232438; }
+    .wr-page-blog-article .blog-article .blog-article-author {
+      overflow: hidden;
+      margin-bottom: 10px;
+      background-color: #fff;
+      border: 1px solid #ebeef5;
+      -webkit-border-radius: 1px;
+              border-radius: 1px;
+      -webkit-box-shadow: 0px 13px 10px -10px #e3e6f7;
+              box-shadow: 0px 13px 10px -10px #e3e6f7; }
+      .wr-page-blog-article .blog-article .blog-article-author .author-foto {
+        float: left;
+        margin: 0 20px 0 0;
+        border-left: 1px solid #ebeef5;
+        border-right: 1px solid #ebeef5; }
+      .wr-page-blog-article .blog-article .blog-article-author .author-print {
+        float: right; }
+      .wr-page-blog-article .blog-article .blog-article-author .author-print {
+        margin-top: 26px; }
+        .wr-page-blog-article .blog-article .blog-article-author .author-print .autor-print-row:before {
+          background-size: cover;
+          -webkit-background-size: cover;
+          width: 20px;
+          height: 20px;
+          content: ' ';
+          display: inline-block;
+          margin-right: 13px; }
+        .wr-page-blog-article .blog-article .blog-article-author .author-print .autor-print-row {
+          padding: 0 25px 15px 0; }
+          .wr-page-blog-article .blog-article .blog-article-author .author-print .autor-print-row a {
+            color: #3c57b7;
+            text-decoration: none;
+            border-bottom: 1px dashed #7a8cce; }
+        .wr-page-blog-article .blog-article .blog-article-author .author-print .autor-print-row1:before {
+          background-image: url(../images/print.svg); }
+        .wr-page-blog-article .blog-article .blog-article-author .author-print .autor-print-row2:before {
+          background-image: url(../images/forward.svg); }
+      .wr-page-blog-article .blog-article .blog-article-author .author-name {
+        padding-top: 26px;
+        display: inline-block;
+        font-size: 20px; }
+      .wr-page-blog-article .blog-article .blog-article-author .author-position {
+        display: inline-block;
+        padding-top: 15px;
+        font-size: 16px; }
+    .wr-page-blog-article .blog-article .blog-txt {
+      overflow: hidden;
+      -webkit-border-radius: 2px;
+      border-radius: 2px; }
+      .wr-page-blog-article .blog-article .blog-txt .article-foto {
+        width: 100%;
+        margin-bottom: -5px; }
+        .wr-page-blog-article .blog-article .blog-txt .article-foto img {
+          width: 100%; }
+      .wr-page-blog-article .blog-article .blog-txt .blog-article {
+        margin-bottom: 60px;
+        padding: 35px 30px 45px 55px;
+        background-color: #fff;
+        border: 1px solid #ebeef5;
+        border-top: none;
+        -webkit-box-shadow: 0px 13px 10px -10px #e3e6f7;
+                box-shadow: 0px 13px 10px -10px #e3e6f7;
+        -webkit-border-radius: 1px;
+        border-radius: 1px; }
+        .wr-page-blog-article .blog-article .blog-txt .blog-article p {
+          padding: 0 0 80px 0;
+          font-size: 17px;
+          color: #232438;
+          line-height: 200%;
+          text-align: justify; }
+        .wr-page-blog-article .blog-article .blog-txt .blog-article h2 {
+          font-size: 21px;
+          color: #232438;
+          margin-bottom: 45px; }
+        .wr-page-blog-article .blog-article .blog-txt .blog-article .txt-foto {
+          float: left;
+          padding: 0 30px 40px 0; }
+
+/* end style page blog-article */
+/* start style page blog */
+.wr-page-blog {
+  overflow: hidden;
+  padding: 0 0 30px 30px; }
+  .wr-page-blog h1 {
+    font-size: 34px;
+    color: #222437; }
+  .wr-page-blog .blog-filter {
+    margin-bottom: 30px; }
+    .wr-page-blog .blog-filter .blog-filter-list {
+      overflow: hidden; }
+      .wr-page-blog .blog-filter .blog-filter-list li {
+        float: left; }
+        .wr-page-blog .blog-filter .blog-filter-list li a {
+          font-size: 16px;
+          font-weight: 300;
+          text-decoration: none;
+          color: #222437; }
+    .wr-page-blog .blog-filter .blog-filter-list-data {
+      display: block; }
+      .wr-page-blog .blog-filter .blog-filter-list-data li {
+        margin-right: 20px; }
+      .wr-page-blog .blog-filter .blog-filter-list-data .blog-filter-active a {
+        font-weight: 700; }
+    .wr-page-blog .blog-filter .blog-filter-list-author li {
+      margin-right: 30px;
+      margin-top: 15px; }
+      .wr-page-blog .blog-filter .blog-filter-list-author li a {
+        font-weight: 300; }
+  .wr-page-blog .wr-blog-item {
+    width: 50%;
+    float: left;
+    margin: 0 0 20px 0; }
+    .wr-page-blog .wr-blog-item .blog-item {
+      margin: 0 10px;
+      padding: 30px 20px;
+      float: left;
+      background-color: #fff;
+      border: 1px solid #ebeef5;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      -webkit-box-shadow: 0px 13px 10px -10px #e3e6f7;
+              box-shadow: 0px 13px 10px -10px #e3e6f7; }
+      .wr-page-blog .wr-blog-item .blog-item img {
+        float: left;
+        -webkit-border-radius: 1px;
+                border-radius: 1px;
+        margin: 0 30px 15px 0; }
+      .wr-page-blog .wr-blog-item .blog-item .blog-item-date {
+        overflow: hidden;
+        font-size: 12px;
+        color: #747f91;
+        font-weight: 300; }
+      .wr-page-blog .wr-blog-item .blog-item h2 {
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 500;
+        color: #232438;
+        border-bottom: 1px dashed #7487cc; }
+      .wr-page-blog .wr-blog-item .blog-item a {
+        font-size: 17px;
+        font-weight: 400;
+        color: #3c57b7;
+        border-bottom: 1px dashed #7487cc;
+        text-decoration: none; }
+      .wr-page-blog .wr-blog-item .blog-item .blog-item-text {
+        padding-top: 40px; }
+
+/* end style page blog */

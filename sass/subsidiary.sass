@@ -1,0 +1,505 @@
+$large: 1240px
+
+$cl-1: #232438
+$cl-2: #243d99
+
+#wrapper
+  background-color: #f3f4f8
+
+#header:after
+  content: ' '
+  display: block
+  width: 100%
+  height: 10px
+  clear: both
+  background-color: #f3f4f8
+  border-top: 1px solid #ebeef5
+
+#header
+  background-image: none
+  background-color: #fff
+  padding: 0
+
+  .wr-header-top
+    position: static
+    padding: 20px 0 0 0
+
+.header-top
+  .logo
+    background-image: url(../images/logo-color.png)
+    background-repeat: no-repeat
+  .header-phone
+    a
+      color: $cl-1
+  .lang-select
+    padding-left: 30px
+    padding-bottom: 6px
+    background-image: url(../images/earth-2.jpg)
+    background-repeat: no-repeat
+    border-color: $cl-1
+    a
+      color: $cl-1
+
+.header-fade
+  display: none
+.main-menu
+  .main-menu-list
+    overflow: visible
+    li
+      padding: 0 0 30px 0
+      position: relative
+      a
+        color: $cl-1
+      a:hover
+        color: #3c57b7
+    li:hover:before
+      content: ' '
+      width: 70px
+      height: 7px
+      position: absolute
+      bottom: -3px
+      left: 50%
+      margin-left: -35px
+      background-image: url(../images/header-menu-item-hover.png)
+      background-repeat: no-repeat
+
+
+.bread-crumbs
+  width: $large
+  margin: 0 auto
+  padding: 20px 0
+  overflow: hidden
+  .bread-crumbs-list
+    float: left
+    overflow: hidden
+    color: #747f91
+    li
+      float: left
+      a
+        padding: 0 10px
+        text-decoration: none
+        color: #747f91
+    li:after
+      content: '/'
+    li:last-child:after
+      content: ''
+
+.two-coloms
+  width: $large
+  overflow: hidden
+  margin: 0 auto 5px auto
+/* start left-menu */
+.left-menu
+  width: 265px
+  float: left
+    
+.left-menu-list
+  padding: 0 20px 0 30px
+  background-color: $cl-2
+  background-image: url(../images/menu-g-line.png)
+  background-repeat: no-repeat
+  -webkit-background-size: contain
+  background-size: contain
+  background-position: 17px 0
+  border-radius: 2px
+  li
+    padding: 18px 0
+    border-bottom: 1px solid #3c57b7
+    position: relative
+    a
+      font-size: 16px
+      color: #fff
+      text-decoration: none
+    a:hover:after
+      width: 7px
+      height: 7px
+      content: ''
+      position: absolute
+      top: 24px
+      left: -16px
+      border-radius: 7px
+      background-color: #fff
+
+  li:last-child
+    border: none
+
+/* end left-menu*/
+.wr-page-content
+  padding: 0 20px 0 30px
+  overflow: hidden
+  h1
+    line-height: 0
+    margin-bottom: 60px
+/* start style page about */
+.wr-contacts
+  overflow: hidden
+  .wr-contact-item
+    width: 33.3%
+    float: left
+    margin-bottom: 20px
+    padding: 0 20px 0 0
+    box-sizing: border-box
+    .contact-item
+      padding: 20px
+      background-color: #fff
+      .contact-item-row
+        width: 100%
+        padding-bottom: 20px
+      .contact-item-co
+        padding-bottom: 20px
+        font-size: 14px
+        font-weight: 500
+        color: #243d99
+      .contact-item-name
+        font-size: 16px
+        font-weight: 500
+        color: #222437
+      .contact-item-adress
+        padding-bottom: 13px
+        font-size: 16px
+        font-weight: 300
+        color: #222437
+      .contact-item-map
+        padding-bottom: 25px
+        a
+          font-size: 16px
+          text-decoration: none
+          border-bottom: 1px dashed #3c57b7
+          color: #3c57b7
+      .contact-item-tel
+        padding-bottom: 7px
+        a
+          font-size: 16px
+          font-weight: 300
+          text-decoration: none
+          color: #222437
+
+      .contact-item-fax
+        padding-bottom: 7px
+        font-size: 16px
+        font-weight: 300
+        color: #222437
+      .contact-item-email
+        padding-bottom: 5px
+        font-size: 16px
+        a
+          font-size: 16px
+          text-decoration: none
+          border-bottom: 1px dashed #3c57b7
+          color: #3c57b7
+  .wr-contact-item:last-child
+    padding-right: 0
+
+/* end style page about */
+
+/* start style page about */
+.wr-about
+  padding: 40px
+  background-color: #fff
+  border: 1px solid #ebeef5
+  .about-scheme
+    width: 100%
+    overflow: hidden
+    margin-bottom: 50px
+    .about-scheme-col
+      width: 33.3%
+      float: left
+      text-align: center
+      .about-sch-digt
+        width: 116px
+        padding: 50px 0 80px 0
+        display: inline-block
+        font-size: 24px
+        font-weight: bold
+        line-height: 20px
+        color: #232438
+        background-image: url(../images/about-iten-bg.png)
+        background-repeat: no-repeat
+        small
+          font-size: 14px
+
+      .about-sch-text
+        width: 100%
+        display: inline-block
+        font-size: 17px
+        color: #232438
+    .about-scheme-col:last-child
+      .about-sch-digt
+        padding-top: 34px
+        padding-bottom: 70px
+  p
+    font-size: 17px
+    font-weight: 300
+    line-height: 30px
+    margin-bottom: 50px
+  p:last-child
+    margin-bottom: 0
+/*end about page style*/
+/* start Licenses page style */
+#accordion
+  h3
+    margin-bottom: 25px
+    padding: 5px 5px 20px 5px
+    font-size: 24px
+    font-weight: 500
+    color: #747f91
+    border-bottom: 1px solid #cdd3e3
+    box-shadow: 0px 17px 22px -10px rgba(229,232,247,1)
+  .ui-accordion-header
+    .ui-icon
+      width: 10px
+      height: 9px
+      float: right
+      margin: 20px 10px 0 0
+      background-image: url("../images/arrow down.svg")
+      background-repeat: no-repeat
+      -webkit-background-size: cover
+      background-size: cover
+  .ui-accordion-header-active
+    .ui-icon
+      background-image: url("../images/arrow up.svg")
+      background-repeat: no-repeat
+      background-size: cover
+  .ui-accordion-content
+    overflow: hidden
+    padding: 35px 10px
+    background-color: #fff
+
+    .accordion-item
+      width: 33.3%
+      float: left
+      text-align: center
+      .wr-img
+        width: 100%
+      img
+        margin-bottom: 20px
+
+/* end Licenses page style */
+/* start popap galery*/
+.popup-gallery
+  a
+    display: none
+  a:first-child
+    display: block
+
+.mfp-title
+  small
+    display: none
+/*end popap galery*/
+/* start person style */
+.wr-person
+  .person-info
+    padding: 0 0 30px 0
+    margin: 0 0 40px 0
+    overflow: hidden
+    border-bottom: 1px solid #cdd3e3
+    img
+      float: left
+      margin: 0 35px 0 0
+      -webkit-border-radius: 1px
+      -moz-border-radius: 1px
+      border-radius: 1px
+    .person-info-data
+      overflow: hidden
+      .person-info-data-row
+        margin-bottom: 14px
+        font-size: 30px
+        color: #222437
+        .position
+          font-size: 18px
+          font-weight: 300
+      .blog-link
+        a
+          padding: 0 0 3px 0
+          font-size: 16px
+          font-weight: 500
+          text-decoration: none
+          border-bottom: 1px dashed #454758
+          color: #222437
+      .blog-link:before
+        width: 22px
+        height: 22px
+        content: ' '
+        margin-right: 13px
+        display: inline-block
+        background-image: url(../images/blog.svg)
+        background-repeat: no-repeat
+        -webkit-background-size: cover
+        background-size: cover
+  .person-info-details
+    padding: 25px 40px
+    border: 1px solid #ebeef5
+    background-color: #fff
+    -webkit-border-radius: 2px
+    -moz-border-radius: 2px
+    border-radius: 2px
+    box-shadow: 0px 17px 22px -10px rgba(229,232,247,1)
+    h2
+      margin-bottom: 40px
+      font-size: 21px
+      font-weight: 500
+      color: #232438
+    P
+      margin-bottom: 45px
+      font-size: 17px
+      line-height: 30px
+      color: #232438
+    .person-gallery
+      overflow: hidden
+      .wr-gallery-img
+        float: left
+        width: 33.3%
+        text-align: center
+        img
+          display: inline-block
+
+
+
+/* end person page style */
+/* start team page style */
+.wr-team
+  #team-accordion
+    h3
+      margin-bottom: 25px
+      padding: 5px 5px 20px 5px
+      font-size: 24px
+      font-weight: 500
+      color: #747f91
+      border-bottom: 1px solid #cdd3e3
+      box-shadow: 0px 17px 22px -10px rgba(229,232,247,1)
+    .ui-accordion-header
+      .ui-icon
+        width: 10px
+        height: 9px
+        float: right
+        margin: 20px 10px 0 0
+        background-image: url("../images/arrow down.svg")
+        background-repeat: no-repeat
+        -webkit-background-size: cover
+        background-size: cover
+    .ui-accordion-header-active
+      .ui-icon
+        background-image: url("../images/arrow up.svg")
+        background-repeat: no-repeat
+        background-size: cover
+    .ui-accordion-content
+      overflow: hidden
+      padding: 35px 10px
+      .accordion-item
+        width: 33.3%
+        float: left
+        text-align: center
+        .wr-img
+          width: 100%
+        img
+          margin-bottom: 20px
+    .team-accordion-row
+      overflow: hidden
+      .wr-team-item
+        width: 50%
+        float: left
+        padding: 0 20px 20px 0
+        margin-bottom: 20px
+        box-sizing: border-box
+        .team-item
+          padding: 20px
+          background-color: #fff
+          box-shadow: 0px 17px 22px -10px rgba(229,232,247,1)
+          .team-item-top
+            overflow: hidden
+            .team-item-info
+              overflow: hidden
+            .fio
+              display: inline-block
+              font-size: 20px
+              line-height: 26px
+              margin-bottom: 25px
+            .position
+              display: inline-block
+              margin-bottom: 21px
+              font-size: 16px
+              font-weight: 300
+            .blog-link
+              position: relative
+              padding-left: 25px
+              a
+                padding-bottom: 1px
+                display: inline-block
+                font-size: 16px
+                font-weight: 500
+                text-decoration: none
+                color: #222437
+                border-bottom: 1px dashed #585968
+            .blog-link:before
+              width: 20px
+              height: 20px
+              content: ' '
+              left: 0
+              position: absolute
+              display: inline-block
+              background-image: url(../images/blog.svg)
+              background-repeat: no-repeat
+              -webkit-background-size: cover
+              background-size: cover
+
+            img
+              margin: 0 20px 20px 0
+              float: left
+              border: 1px solid #ebeef5
+              -webkit-border-radius: 2px
+              -moz-border-radius: 2px
+              border-radius: 2px
+          .team-item-bottom
+            overflow: hidden
+            .team-item-btn-about
+              margin-bottom: 20px
+              padding: 5px 0 18px 0
+              border-bottom: 1px solid #cdd3e3
+              cursor: pointer
+              a
+                font-size: 16px
+                font-weight: 500
+                color: #222437
+                text-decoration: none
+                border-bottom: 1px dashed #686a77
+            .team-item-btn-about:before
+              width: 21px
+              height: 21px
+              content: ' '
+              margin: 0 15px 0 0
+              display: inline-block
+              background-image: url(../images/person.svg)
+              background-repeat: no-repeat
+              background-size: contain
+            .team-item-btn-about:after
+              width: 10px
+              height: 10px
+              content: ' '
+              margin: 15px 15px 0 0
+              display: inline-block
+              float: right
+              background-image: url('../images/arrow down.svg')
+              background-repeat: no-repeat
+              background-size: contain
+            .team-item-btn-active:after
+              background-image: url('../images/arrow up.svg')
+            .team-item-btn-active + .team-item-about-info
+              display: block
+            .team-item-about-info
+              display: none
+              padding: 5px 0
+              p
+                font-size: 16px
+                line-height: 24px
+              a
+                color: #3c57b7
+                text-decoration: none
+                border-bottom: 1px dashed #7a8cce
+
+      .wr-team-item:nth-child
+        margin-right: 0
+
+
+/* end team page style */
+.wr-footer-menu
+  background-color: #fff

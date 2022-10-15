@@ -1,0 +1,352 @@
+@media only screen and (max-width: 680px)
+  .modal
+    width: 300px !important
+  .modal-dialog
+    width: 300px!important
+    padding: 0 20px!important
+    box-sizing: border-box
+  .wr-header-bar
+    padding: 14px 20px
+    position: relative
+    background-color: #3e3e3e
+    .header-copy-right
+      margin: 0
+      font-size: 23px
+      text-transform: uppercase
+      line-height: 15px
+      color: #a6a6a6
+      .copyryght
+        display: none
+      span
+        font-size: 12px
+        color: #e6e6e6
+
+  .header-soc-btn-list
+    position: absolute
+    right: 0
+    bottom: -10px
+    z-index: 20
+    li
+      border: 3px solid #3e3e3e
+      -webkit-border-radius: 23px
+      -moz-border-radius: 23px
+      border-radius: 23px
+      -webkit-background-size: cover
+      background-size: cover
+    .soc-btn-phone
+      display: block
+    .soc-btn-vk
+      display: none
+    .soc-btn-od
+      display: none
+    .soc-btn-twitter
+      display: none
+    .soc-btn-phone
+      display: block
+      background-color: #d6d6d6
+  .content
+    display: none
+  #header:after
+    content: ' '
+    display: inline-block
+    clear: both
+  #header
+    padding: 0 20px
+    position: relative
+    .order-bring
+      display: block
+    .header-logo
+      float: left
+      width: 96px
+      max-width: 45%
+      height: 58px
+      margin-right: 0
+      background-image: url(../images/logo-header-mob-s.png)
+      background-size: contain
+    .header-col
+      display: none
+    .header-search
+      width: 50%
+      float: right!important
+      overflow: hidden
+      margin: 65px 0 0 0
+      .wr-search
+        width: 100%
+        box-sizing: border-box
+        #header-search
+          width: 80%
+        .header-search-submit
+          width: 20%
+      label
+        display: none
+
+    .header-phone
+      position: absolute
+      margin: 0
+      top: 0
+      right: 20px
+      width: 190px
+      .header-phone-btn
+        display: none
+  .main-menu
+    overflow: hidden
+    margin-top: 10px
+    padding: 0 20px
+    background-color:  #fff
+    border: none
+    .main-menu-list>li:last-child:after
+      display: inline-block
+    .main-menu-list
+      border: none
+      li
+        padding: 5px 0 5px 40px
+        margin-bottom: 6px
+        float: none
+        overflow: hidden
+        display: block
+        background-color: #ec1859
+        -webkit-border-radius: 4px
+        -moz-border-radius: 4px
+        border-radius: 4px
+        a
+          display: inline-block
+          font-size: 33px
+          line-height: 1
+        a:hover
+          color: #fff
+        .main-menu-list-hover
+          display: none
+          position: static
+          margin: 0
+          padding: 0
+          transition-duration: 0.3s
+          li
+            margin: 0
+            padding: 0
+            border: none
+            height: 0
+            transition-duration: 0s
+            a
+              transition-duration: 0s
+        .ui-accordion-content-active
+          height: auto!important
+          opacity: 1
+          li
+            padding: 0
+            border: none
+            height: auto
+            overflow: hidden
+      .sale-item
+        display: block
+        background-color: #494546
+        .main-menu-list-hover
+          opacity: 1
+          li
+            background-color: #494546
+      .sale-item:after
+        background-image: url(../images/mob-menu-sele-arrow.png)
+        background-repeat: no-repeat
+        -webkit-background-size: cover
+        background-size: cover
+    .main-menu-list>li:after
+      content: ' '
+      left: 10px
+      top: 5px
+      width: 18px
+      height: 31px
+      font-size: 33px
+      box-shadow: none
+      background-color: rgba(0 , 0 , 0 , 0)
+      background-image: url(../images/mob-menu-arrow.png)
+      background-repeat: no-repeat
+  #footer
+    padding: 0
+    .footer
+      display: flex
+      flex-direction: column
+      .footer-top
+        text-align: center
+        .footer-logo
+          overflow: hidden
+          float: none
+          display: inline-block
+          margin: 20px 0 0 0
+          padding: 20px 0 0 0
+      .footer-address
+        display: none
+      .footer-contact-info
+        display: none
+      .footer-soc-bar
+        float: none
+        padding: 50px 0
+        text-align: center
+        background-color: #fff
+        order: -1
+        .footer-soc-btn-list
+          float: none
+          display: inline-block
+          li
+            margin-right: 5px
+            a
+              width: 46px
+              height: 46px
+              background-size: cover
+          .footer-soc-btn-vk
+            a
+              background-image: url(../images/soc-btn-vk.png)
+          .footer-soc-btn-od
+            a
+              background-image: url(../images/soc-btn-od.png)
+          .footer-soc-btn-twitter
+            a
+              background-image: url(../images/soc-btn-twittre.png)
+          .footer-soc-btn-g-plus
+            a
+              background-image: url(../images/soc-btn-mail.png)
+        span
+          display: none!important
+      .footer-order-btn
+        display: none
+      .footer-copyright
+        text-align: center
+        padding: 0 10px
+        margin: 0
+
+@media only screen and (max-width: 480px)
+  .wr-header-bar
+    margin-bottom: 20px
+    .header-copy-right
+      font-size: 12px
+      span
+        font-size: 9px
+  #header
+    padding: 0
+    .header-logo
+      width: 300px
+      max-width: 100%
+      margin: 0 0 20px 20px
+      -webkit-background-size: cover
+      background-size: contain
+    .header-search
+      width: 100%
+      padding: 5px 20px
+      margin-bottom: 20px
+      box-sizing: border-box
+      background-color: #acacac
+      margin-top: 0px!important
+      .header-search-row
+        margin: 0
+      .wr-search
+        height: 25px
+        border: none
+        .header-search-submit
+          width: 35px
+          border: none
+          background-image: url(../images/search-icon-mob.png)
+          -ms-background-position-y: 5px
+          background-position-y: 5px
+          background-repeat: no-repeat
+    .header-phone
+      width: 200px
+      float: right
+      a
+        margin: 0
+        font-size: 20px
+        line-height: 1.5
+  .main-menu
+    .main-menu-list li
+      a
+        font-size: 15px
+    .main-menu-list>li:after
+      width: 10px
+      height: 18px
+      background-size: contain
+
+  #footer
+    .footer
+      flex-direction: row-reverse
+      justify-content: space-between
+      .footer-logo
+        float: left
+        width: 96px
+        height: 58px
+        margin-left: 20px!important
+        background-image: url(../images/footer-logo-mob.png)
+        background-repeat: no-repeat
+      .footer-soc-bar
+        float: right
+        background: none
+        padding: 35px 20px 30px 0
+        .footer-soc-btn-list
+          li
+            a
+              width: 30px
+              height: 30px
+      .footer-copyright
+        display: none
+  .page-block
+    .wr-title
+      h1
+        border: none
+        &:after
+          width: 0
+          height: 0
+      &:after
+        width: 0
+        height: 0
+  .catalog-page-content
+    .catalog
+      .wr-product-items
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        .product-item
+          padding-bottom: 20px
+          .wr-product-img
+            border: none
+            overflow: hidden
+          .wr-product-name
+            margin-top: 0
+            overflow: hidden
+            a
+              background: none
+              color: #4b4b4b
+          .wr-product-rang
+            display: none
+          .wr-product-descriptions
+            display: none
+          .wr-product-sel
+            text-align: center
+            .product-prise
+              display: none
+            .order-btn
+              float: none
+              margin-bottom: 20px
+  .wr-catalog-page-banner
+    display: none
+
+  .product-galery
+    width: 100%
+    .big-img
+      img
+        max-width: 100%
+    .thumb-img
+      display: none
+  .wr-card-sliders
+    display: none
+  .product-skills
+    width: 100%
+    padding: 0
+    border: none
+    .product-skills-row
+      border: none
+      text-align: center
+      .product-price
+        display: block!important
+      span
+        display: none!important
+      h2
+        display: none
+  .wr-card-banner-img
+    display: none

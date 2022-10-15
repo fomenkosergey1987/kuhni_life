@@ -1,0 +1,39 @@
+<section class="home-catalog">
+                <div class="wr-title">
+                    <h1>каталог товаров</h1>
+                </div>
+                <div class="wr-catalog-items">
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-1.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-2.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-3.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-4.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-5.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-6.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-7.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-8.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                </div>
+            </section>

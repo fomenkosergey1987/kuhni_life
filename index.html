@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Gulp template</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/swipe.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.modal.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/760.css">
+    <link rel="stylesheet" href="css/480.css">
+
+
+</head>
+<body>
+	<div id="wrapper">
+        <div class="wr-header-bar">
+            <div class="header-bar">
+                <ul class="header-soc-btn-list">
+                    <li class="soc-btn-vk"><a href="#">VK</a></li>
+                    <li class="soc-btn-od"><a href="#">OD</a></li>
+                    <li class="soc-btn-twitter"><a href="#">twitter</a></li>
+                    <li class="soc-btn-phone">
+                        <a href="#">phone</a>
+                    </li>
+
+                    <li class="soc-btn-mail"><a href="#">mail</a></li>
+                </ul>
+
+                <div class="header-copy-right">
+                    Kuhni-life <span class="copyryght"> &reg;</span>
+                    <span><br/>мебель на заказ от производителя</span>
+                </div>
+            </div>
+        </div>
+        <header id="header">
+            <div class="header-logo">
+                <h1>Kuhni-life</h1>
+            </div>
+            <div class="header-search">
+                <form action="#">
+                    <div class="header-search-row">
+                        <label for="header-search">ищите что-то конкретное?</label>
+                    </div>
+                    <div class="wr-search">
+                        <input id="header-search" type="search" name="header-search" placeholder="Введите название товара...">
+                        <input class="header-search-submit" type="submit" >
+                    </div>
+                </form>
+            </div>
+            <div class="order-bring">
+                <form action="#" method="post" class="order-bring-form">
+                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                    <input type="submit" value="заказать звонок">
+                </form>
+            </div>
+            <div class="header-consultation header-col">
+                <div class="header-row">
+                    <a href="#home-contact-form" class="btn-anchor">Консультация</a>
+                </div>
+                <div class="header-row header-row-get-text">
+                    <span>получить онлайн
+                        консультацию?</span>
+                </div>
+            </div>
+            <div class="header-col header-mail">
+                <div class="header-row">
+                    <a href="#home-contact-form" class="btn-anchor">Написать нам</a>
+
+                </div>
+                <div class="header-row">
+                    <p>nfo@kuhni-life.com</p>
+                </div>
+                <div class="header-row">
+                    <p>с 8:00 до 22:00</p>
+                </div>
+            </div>
+
+            <div class=" header-phone">
+                <div class="header-row">
+                    <a href="#home-contact-form" class="header-phone-btn btn-anchor">Обратный звонок</a>
+                </div>
+                <div class="header-row">
+                    <p>8 (495) <b>664 37 70</b></p>
+                </div>
+                <div class="header-row">
+                    <p>8 (999) <b>110 51 96</b></p>
+                </div>
+            </div>
+        </header>
+        <nav class="main-menu">
+            <ul class="main-menu-list">
+                <li class="sale-item">
+                    <a href="#">Распродажа</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Кухни</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Шкафы</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Наши работы</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Производство</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Отзывы</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Доставка</a>
+                    <ul class="main-menu-list-hover">
+                        <li><a href="#">Кухни МДФ</a></li>
+                        <li><a href="#">Кухни массив дерева</a></li>
+                        <li><a href="#">Кухни лдсп</a></li>
+                        <li><a href="#">Кухни пластик</a></li>
+                        <li><a href="#">Кухни эмаль</a></li>
+                        <li><a href="#">Кухни Alvic</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="home-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <section class="home-catalog">
+                <div class="wr-title">
+                    <h1>каталог товаров</h1>
+                </div>
+                <div class="wr-catalog-items">
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-1.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-2.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-3.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-4.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-5.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-6.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-7.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                    <div class="catalog-item">
+                        <img src="images/catalog-img-8.jpg" alt="">
+                        <a href="#">кухни массив</a>
+                    </div>
+                </div>
+            </section>
+            <section class="order">
+                <div class="order-col">
+                    820 Кухонь изготовлено<br/>
+                    за последний год
+                </div>
+                <div class="order-col">
+                    12 Месяцев<br/>
+                    гарантии и обслуживания
+                </div>
+                <div class="order-col">
+                    12 лет заслуженной<br/>
+                    работы для вас
+                </div>
+            </section>
+            <section class="services">
+                <div class="wr-services-title">
+                    <h1>услуги нашего магазина</h1>
+
+                </div>
+                <div class="services-item">
+                    <img src="images/services-icon-1.png" alt="Дизайн ">
+                    <h2>Дизайн </h2>
+                    <span>дизайн проект бесплатно</span>
+                </div>
+                <div class="services-item">
+                    <img src="images/services-icon-2.png" alt="замер ">
+                    <h2>замер </h2>
+                    <span>Бесплатный замер</span>
+                </div>
+                <div class="services-item">
+                    <img src="images/services-icon-3.png" alt="доставка ">
+                    <h2>доставка </h2>
+                    <span>Доставим до квартиры<br/>совершенно бесплатно!</span>
+                </div>
+                <div class="services-item">
+                    <img src="images/services-icon-4.png" alt="сборка ">
+                    <h2>сборка </h2>
+                    <span>Бесплатно соберем<br/>Вашу мебель!</span>
+                </div>
+                <div class="services-item">
+                    <img src="images/services-icon-5.png" alt="Ожидание ">
+                    <h2>Ожидание </h2>
+                    <span>Быстрое исполнение<br/>заказа 7-30 дней</span>
+                </div>
+                <div class="services-item">
+                    <img src="images/services-icon-6.png" alt="гарантия ">
+                    <h2>гарантия </h2>
+                    <span>Гарантия 12 месяцев<br/> на всю мебель</span>
+                </div>
+            </section>
+            <section class="home-seles">
+                <div class="wr-title">
+                    <h1>Неделя распродажи</h1>
+                </div>
+                <div class="wr-seles-slots">
+                    <div class="wrseles-slot">
+                        <div class="seles-slot">
+                            <div class="seles-order">скидка  25%</div>
+                            <div class="seles-slot-row">
+                                <img src="images/seles-slot-img-1.jpg" alt="sel-slot-1" class="seles-slot-img">
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-name">кухня массив дерева м-1</a>
+                            </div>
+                            <div class="seles-slot-skill">
+                                <div class="seles-slot-skill-row">Габаритные размеры: 2,6*3,0м</div>
+                                <div class="seles-slot-skill-row">Материал: Дуб натуральный</div>
+                                <div class="seles-slot-skill-row">Производитель: Кухни-life</div>
+                            </div>
+                            <div class="seles-slot-row">
+                                    <span class="price">
+                                        ЦЕНА <b>237.900Р</b>
+                                    </span>
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-order-btn">ЗАКАЗАТЬ</a>
+                                <a href="#" class="seles-slot-calc-btn">РАСЧИТАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrseles-slot">
+                        <div class="seles-slot">
+                            <div class="seles-order">скидка  27%</div>
+                            <div class="seles-slot-row">
+                                <img src="images/seles-slot-img-2.jpg" alt="sel-slot-1" class="seles-slot-img">
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-name">кухня массив дерева м-1</a>
+                            </div>
+                            <div class="seles-slot-skill">
+                                <div class="seles-slot-skill-row">Габаритные размеры: 2,6*3,0м</div>
+                                <div class="seles-slot-skill-row">Материал: Дуб натуральный</div>
+                                <div class="seles-slot-skill-row">Производитель: Кухни-life</div>
+                            </div>
+                            <div class="seles-slot-row">
+                                    <span class="price">
+                                        ЦЕНА <b>237.900Р</b>
+                                    </span>
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-order-btn">ЗАКАЗАТЬ</a>
+                                <a href="#" class="seles-slot-calc-btn">РАСЧИТАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrseles-slot">
+                        <div class="seles-slot">
+                            <div class="seles-order">скидка  55%</div>
+                            <div class="seles-slot-row">
+                                <img src="images/seles-slot-img-3.jpg" alt="sel-slot-1" class="seles-slot-img">
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-name">кухня массив дерева м-1</a>
+                            </div>
+                            <div class="seles-slot-skill">
+                                <div class="seles-slot-skill-row">Габаритные размеры: 2,6*3,0м</div>
+                                <div class="seles-slot-skill-row">Материал: Дуб натуральный</div>
+                                <div class="seles-slot-skill-row">Производитель: Кухни-life</div>
+                            </div>
+                            <div class="seles-slot-row">
+                                    <span class="price">
+                                        ЦЕНА <b>237.900Р</b>
+                                    </span>
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-order-btn">ЗАКАЗАТЬ</a>
+                                <a href="#" class="seles-slot-calc-btn">РАСЧИТАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrseles-slot">
+                        <div class="seles-slot">
+                            <div class="seles-order">скидка  125%</div>
+                            <div class="seles-slot-row">
+                                <img src="images/seles-slot-img-1.jpg" alt="sel-slot-1" class="seles-slot-img">
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-name">кухня массив дерева м-1</a>
+                            </div>
+                            <div class="seles-slot-skill">
+                                <div class="seles-slot-skill-row">Габаритные размеры: 2,6*3,0м</div>
+                                <div class="seles-slot-skill-row">Материал: Дуб натуральный</div>
+                                <div class="seles-slot-skill-row">Производитель: Кухни-life</div>
+                            </div>
+                            <div class="seles-slot-row">
+                                    <span class="price">
+                                        ЦЕНА <b>237.900Р</b>
+                                    </span>
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-order-btn">ЗАКАЗАТЬ</a>
+                                <a href="#" class="seles-slot-calc-btn">РАСЧИТАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrseles-slot">
+                        <div class="seles-slot">
+                            <div class="seles-order">скидка  225%</div>
+                            <div class="seles-slot-row">
+                                <img src="images/seles-slot-img-2.jpg" alt="sel-slot-1" class="seles-slot-img">
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-name">кухня массив дерева м-1</a>
+                            </div>
+                            <div class="seles-slot-skill">
+                                <div class="seles-slot-skill-row">Габаритные размеры: 2,6*3,0м</div>
+                                <div class="seles-slot-skill-row">Материал: Дуб натуральный</div>
+                                <div class="seles-slot-skill-row">Производитель: Кухни-life</div>
+                            </div>
+                            <div class="seles-slot-row">
+                                    <span class="price">
+                                        ЦЕНА <b>237.900Р</b>
+                                    </span>
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-order-btn">ЗАКАЗАТЬ</a>
+                                <a href="#" class="seles-slot-calc-btn">РАСЧИТАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrseles-slot">
+                        <div class="seles-slot">
+                            <div class="seles-order">скидка  325%</div>
+                            <div class="seles-slot-row">
+                                <img src="images/seles-slot-img-3.jpg" alt="sel-slot-1" class="seles-slot-img">
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-name">кухня массив дерева м-1</a>
+                            </div>
+                            <div class="seles-slot-skill">
+                                <div class="seles-slot-skill-row">Габаритные размеры: 2,6*3,0м</div>
+                                <div class="seles-slot-skill-row">Материал: Дуб натуральный</div>
+                                <div class="seles-slot-skill-row">Производитель: Кухни-life</div>
+                            </div>
+                            <div class="seles-slot-row">
+                                    <span class="price">
+                                        ЦЕНА <b>237.900Р</b>
+                                    </span>
+                            </div>
+                            <div class="seles-slot-row">
+                                <a href="#" class="seles-slot-order-btn">ЗАКАЗАТЬ</a>
+                                <a href="#" class="seles-slot-calc-btn">РАСЧИТАТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wr-home-dispatch">
+                <div class="home-dispatch">
+                    <div class="wr-home-dispatch-caption">
+                        Подпишитесь на рассылку <br/>
+                        и получайте новости о <b>скидках и распродажах!</b>
+                    </div>
+                    <form action="#" method="post" class="dispatch-form">
+                        <input type="email" name="email" placeholder="Ваш e-mail" class="dispatch-email">
+                        <input type="submit" value="" class="dispatch-submit">
+                    </form>
+                </div>
+            </section>
+            <section class="home-contact">
+                <div class="wr-title">
+                    <h1>Бесплатный вызов дизайнера</h1>
+                </div>
+                <div class="wr-contact-form">
+                    <form action="#" class="home-contact-form" id="home-contact-form" method="post">
+                        <div class="home-contact-form-col">
+                            <div class="home-contact-form-row required">
+                                <label for="contact-form-name">Имя</label>
+                                <input id="contact-form-name" type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="home-contact-form-row">
+                                <label for="contact-form-name">Телефон</label>
+                                <input type="tel" name="phone" placeholder="+7(____)__-__-__">
+                            </div>
+                            <div class="home-contact-form-row required">
+                                <label for="contact-form-name">Email</label>
+                                <input type="email" name="email" placeholder="Ваш e-mail">
+                            </div>
+                            <div class="home-contact-form-row">
+                                <span>Поля выделенные * обязательны для заполнения.</span>
+                            </div>
+                            <div class="home-contact-form-row">
+                                <input type="submit" value="Вызвать замерщика">
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="contact-form-img">
+                        <img src="images/we-can-img.jpg" alt="we-can">
+                    </div>
+                </div>
+            </section>
+            <section class="home-material">
+                <div class="wr-title">
+                    <h1>фасады из любого материала</h1>
+
+                </div>
+                <div class="wr-material-item">
+                    <div class="material-item">
+                        <div class="material-img">
+                            <img src="images/material-img-1.jpg" alt="">
+                        </div>
+                        <div class="material-name">
+                            <h3><a href="#">пластик</a></h3>
+                        </div>
+                        <div class="material-description">
+                                <span>ПОКРЫТИЕ: итальянское - Фирм Arpa<br/>
+                                ОСОБЕННОСТИ: рельеф, фактура<br/>
+                                СРОК ЭКСПЛУАТАЦИИ: 25 лет<br/>
+                                КОЛ-ВО ЦВЕТОВ: более 500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wr-material-item">
+                    <div class="material-item">
+                        <div class="material-img">
+                            <img src="images/material-img-2.jpg" alt="">
+                        </div>
+                        <div class="material-name">
+                            <h3><a href="#">пластик</a></h3>
+                        </div>
+                        <div class="material-description">
+                                <span>ПОКРЫТИЕ: итальянское - Фирм Arpa<br/>
+                                ОСОБЕННОСТИ: рельеф, фактура<br/>
+                                СРОК ЭКСПЛУАТАЦИИ: 25 лет<br/>
+                                КОЛ-ВО ЦВЕТОВ: более 500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wr-material-item">
+                    <div class="material-item">
+                        <div class="material-img">
+                            <img src="images/material-img-3.jpg" alt="">
+                        </div>
+                        <div class="material-name">
+                            <h3><a href="#">пластик</a></h3>
+                        </div>
+                        <div class="material-description">
+                                <span>ПОКРЫТИЕ: итальянское - Фирм Arpa<br/>
+                                ОСОБЕННОСТИ: рельеф, фактура<br/>
+                                СРОК ЭКСПЛУАТАЦИИ: 25 лет<br/>
+                                КОЛ-ВО ЦВЕТОВ: более 500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wr-material-item">
+                    <div class="material-item">
+                        <div class="material-img">
+                            <img src="images/material-img-4.jpg" alt="">
+                        </div>
+                        <div class="material-name">
+                            <h3><a href="#">пластик</a></h3>
+                        </div>
+                        <div class="material-description">
+                                <span>ПОКРЫТИЕ: итальянское - Фирм Arpa<br/>
+                                ОСОБЕННОСТИ: рельеф, фактура<br/>
+                                СРОК ЭКСПЛУАТАЦИИ: 25 лет<br/>
+                                КОЛ-ВО ЦВЕТОВ: более 500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wr-material-item">
+                    <div class="material-item">
+                        <div class="material-img">
+                            <img src="images/material-img-5.jpg" alt="">
+                        </div>
+                        <div class="material-name">
+                            <h3><a href="#">пластик</a></h3>
+                        </div>
+                        <div class="material-description">
+                                <span>ПОКРЫТИЕ: итальянское - Фирм Arpa<br/>
+                                ОСОБЕННОСТИ: рельеф, фактура<br/>
+                                СРОК ЭКСПЛУАТАЦИИ: 25 лет<br/>
+                                КОЛ-ВО ЦВЕТОВ: более 500</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="home-calc">
+                <div class="wr-title">
+                    <h1>Расчет стоимости Вашей мебели</h1>
+
+                </div>
+                <div class="wr-calc">
+                    <div class="calc">
+                        <div class="calc-text">
+                            <h2>Обошли все мебельные салоны, <br/>но не нашли кухню своей мечты?</h2>
+                            <p>Заказать же мебель опасаетесь из-за уверенности, что
+                                стоимость будет непосильной для семейного кошелька?
+                                Убедитесь в своем ошибочном мнении, сейчас же сделав заявку
+                                на расчет, несколько раз кликнув компьютерной мышкой.</p>
+
+                            <p>Загрузите свой эскиз и мы посчитаем стоимость вашей мебели
+                                совершенно <span>бесплатно</span>. Если у вас еще нет эскиза, можете <a
+                                        href="#">скачать</a> файл у нас.
+                            </p>
+                        </div>
+                        <div class="calc-img">
+                            <img src="images/calc-img.jpg" alt="calc img">
+                            <a href="#" class="calc-btn">расчитать бесплатно</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="home-suppliers">
+                <div class="wr-title">
+                    <h1>наши поставщики</h1>
+                </div>
+                <div class="wr-supplier">
+                    <img src="images/compani-1.jpg" alt="">
+                </div>
+                <div class="wr-supplier">
+                    <img src="images/compani-2.jpg" alt="">
+                </div>
+                <div class="wr-supplier">
+                    <img src="images/compani-3.jpg" alt="">
+                </div>
+                <div class="wr-supplier">
+                    <img src="images/compani-4.jpg" alt="">
+                </div>
+                <div class="wr-supplier">
+                    <img src="images/compani-1.jpg" alt="">
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer-top">
+                    <div class="footer-logo"></div>
+                    <div class="footer-address">
+                        <span>Московская область, город Ногинск<br/>
+                            улица Декабристов, д. 2</span>
+                    </div>
+                    <div class="footer-contact-info">
+                        <div class="footer-phone">8 (999) 110 51 96</div>
+                        <div class="footer-mail">info@kuhni-life.com</div>
+                    </div>
+                    <a href="#home-contact-form" class="footer-order-btn btn-anchor">Заказать звонок</a>
+                </div>
+                <div class="footer-soc-bar">
+
+                    <ul class="footer-soc-btn-list">
+                        <li class="footer-soc-btn-vk"><a href="#"></a></li>
+                        <li class="footer-soc-btn-od"><a href="#"></a></li>
+                        <li class="footer-soc-btn-twitter"><a href="#"></a></li>
+                        <li class="footer-soc-btn-g-plus"><a href="#"></a></li>
+                    </ul>
+                    <span>Мы в социальных сетях</span>
+                </div>
+                <div class="footer-copyright">
+                    <span>Мебельная компания "Кухни Life" &reg; 2004 - 2017 Все права защищены</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="modal" class="modal model-msg fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"></h4>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/swipe.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/send_form.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+    <script src="js/common.js"></script>
+</body>
+</html>

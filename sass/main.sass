@@ -1,0 +1,1877 @@
+$large: 1200px
+$color-1: #282828
+
+
+body
+  font-family: 'Open Sans'
+
+.wr-header-bar
+  padding: 11px 0
+  background-color: $color-1
+  margin-bottom: 40px
+
+.header-bar
+  max-width: $large
+  margin: 0 auto
+  overflow: hidden
+  
+.header-soc-btn-list
+  float: left
+  overflow: hidden
+  li
+    float: left
+    margin: 0 10px 0 0
+    a
+      width: 36px
+      height: 36px
+      display: block
+      text-indent: -999px
+      -webkit-border-radius: 36px
+      -moz-border-radius: 36px
+      border-radius: 36px
+
+      font-size: 0
+  .soc-btn-vk
+    background-image: url(../images/soc-btn-vk.png)
+  .soc-btn-od
+    background-image: url(../images/soc-btn-od.png)
+  .soc-btn-twitter
+    background-image: url(../images/soc-btn-twittre.png)
+  .soc-btn-mail
+    background-image: url(../images/soc-btn-mail.png)
+  .soc-btn-phone
+    display: none
+    background-image: url(../images/soc-btn-phone.png)
+
+
+.order-bring
+  display: none
+  width: 190px
+  display: none
+  position: absolute
+  padding: 41px 10px 10px 10px
+  box-sizing: border-box
+  background-color: #d6d6d6
+  right: -190px
+  z-index: 10
+  top: -20px
+  text-align: center
+  transition: all 0.7s ease
+  input[type='tel']
+    border: none
+    margin-bottom: 10px
+    padding: 2px 0 2px 5px
+  input[type='submit']
+    display: inline-block
+    border: none
+    color: #e6e6e6
+    background-color: #ec1859
+  input[type='submit']:focus
+    font-size: 12px
+    background-color: #a10035
+
+.header-copy-right
+  float: left
+  margin-top: 12px
+  font-size: 11px
+  text-transform: uppercase
+  color: #c1bfc0
+
+#header
+  max-width: $large
+  margin: 0 auto 24px auto
+  overflow: hidden
+  .header-logo
+    width: 250px
+    height: 145px
+    float: left
+    margin: 0 20px 0 0
+    text-indent: -999px
+    font-size: 0
+    background-image: url(../images/header-logo.png)
+    background-repeat: no-repeat
+
+  .header-search
+    width: 355px
+    margin: 40px 30px 0 0
+    float: left
+    overflow: hidden
+    .header-search-row
+      width: 100%
+      margin-bottom: 7px
+      label
+        font-size: 16px
+        color: #040404
+    .wr-search
+      height: 35px
+      float: left
+      overflow: hidden
+      border: 2px solid #d2d2d2
+      -webkit-border-radius: 2px
+      -moz-border-radius: 2px
+      border-radius: 2px
+      #header-search
+        width: 300px
+        padding: 0 10px
+        height: 100%
+        float: left
+        border: none
+      .header-search-submit
+        width: 50px
+        height: 100%
+        float: left
+        background-color: #fff
+        background-image: url(../images/search-icon.png)
+        background-repeat: no-repeat
+        background-position: 10px 2px
+        border: none
+        border-left: 1px solid #afafaf
+        text-indent: -999px
+        cursor: pointer
+  .header-col
+    width: 160px
+    float: left
+    margin: 40px 30px 0 0
+    .header-row
+      width: 100%
+      overflow: hidden
+      span
+        font-size: 16px
+        color: #040404
+        line-height: 24px
+      p
+        line-height: 24px
+    .header-row-get-text
+      text-align: right
+
+  .header-consultation
+    a
+      font-size: 16px
+      color: #ca1751
+    a:before
+      content: ' '
+      width: 29px
+      height: 29px
+      float: left
+      margin: 0 10px 2px 0
+      background-image: url(../images/consultation-icon.png)
+      background-repeat: no-repeat
+
+  .header-mail
+    width: 160px
+    margin-right: 0
+    a
+      font-size: 16px
+      color: #ca1751
+    a:before
+      content: ' '
+      width: 29px
+      height: 29px
+      float: left
+      margin: 0 10px 2px 0
+      background-image: url(../images/mail-icon.png)
+      background-repeat: no-repeat
+    .header-row
+      text-align: right
+    .header-row:first-child
+      text-align: left
+
+  .header-phone
+    float: right
+    margin-top: 40px
+    text-align: right
+    z-index: -999
+    .header-row
+      width: 100%
+      overflow: hidden
+    .header-phone-btn
+      font-size: 16px
+      color: #ca1751
+      display: inline
+      text-decoration: underline
+      margin: 0
+      line-height: 0
+    p
+      display: inline-block
+      line-height: 24px
+      margin-left: 10px
+      font-size: 16px
+      text-decoration: none
+      color: #000
+      b
+        font-weight: bold
+    .header-phone-btn:before
+      content: ' '
+      width: 29px
+      height: 29px
+      float: left
+      margin: 0 0 2px 0
+      background-image: url(../images/phone-icon.png)
+      background-repeat: no-repeat
+
+
+.main-menu
+  max-width: $large
+  margin: 0 auto 22px auto
+  background-color: #302f31
+  border-bottom: 2px solid #ee145b
+  .main-menu-list
+    border-top: 1px solid #615d5f
+    .sale-item
+      display: none
+    li:hover
+      ul
+        overflow: inherit
+        opacity: 1
+        height: auto
+        li
+          a
+            padding: 10px
+  .main-menu-list:after
+    content: ' '
+    display: block
+    clear: both
+  .main-menu-list>li
+      float: left
+      padding: 10px 20px
+      position: relative
+      a
+        font-size: 20px
+        text-transform: uppercase
+        text-decoration: none
+        color: #ece9ea
+        transition: all 0.2s linear
+      a:hover
+        color: #ed145b
+  .main-menu-list>li:after
+      content: ' '
+      width: 1px
+      height: 40px
+      position: absolute
+      right: 0
+      top: 0
+      background-color: #595959
+      box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75)
+  .main-menu-list>li:last-child:after
+      display: none
+  .main-menu-list-hover
+    overflow: hidden
+    opacity: 0
+    height: 0
+    min-width: 199px
+    padding: 15px 0 0 0
+    margin: 6px 0 0 -10px
+    position: absolute
+    z-index: 999
+    -webkit-border-radius: 4px
+    -moz-border-radius: 4px
+    border-radius: 4px
+    transition: all 0.1s linear
+    li
+      border-bottom: 1px solid #4a494a
+      background-color: #302f31
+      transition: all 0.1s linear
+      a
+        display: inline-block
+        padding: 7px 10px
+        font-size: 17px
+        text-transform: none
+        transition: all 0.2s linear
+    li:first-child
+      border-radius: 5px 5px 0 0
+    li:last-child
+      border-radius: 0 0 5px 5px
+    li:hover
+      background-color: #ed145b
+      a
+        color: #fff
+
+  .main-menu-list-hover:before
+    bottom: 94%
+    left: 35%
+    top: 0
+    margin-top: 12px
+    z-index: -99
+    border: solid transparent
+    content: " "
+    height: 10px
+    width: 10px
+    position: absolute
+    pointer-events: none
+    background-color: #302f31
+    transform: rotate(-45deg)
+/* start slyder style */
+.home-slider
+  max-width: $large
+
+  margin: 0 auto 20px auto
+  .swiper-slide
+    height: 350px
+    padding: 120px 0
+    box-sizing: border-box
+    text-align: center
+    background: #4b4b4b
+    font-size: 52px
+    color: #ddd6d6
+
+.swiper-pagination-bullet
+  width: 16px
+  height: 16px
+  background: #c2c2c2
+.swiper-pagination-bullet-active
+  background: #f1f0f0
+
+/*end slyder style */
+/* start home-catalog style*/
+.wr-catalog-items
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.home-catalog
+  max-width: $large
+  margin: 0 auto
+  overflow: hidden
+  text-align: center
+
+  .wr-title
+    position: relative
+    h1
+      margin: 0 0 10px 0
+      padding: 0 10px
+      overflow: hidden
+      display: inline-block
+      font-size: 30px
+      text-transform: uppercase
+      color: #4b4b4b
+      background: #fff
+    h1:after
+      content: ' '
+      width: 14px
+      height: 14px
+      margin-left: 30px
+      display: inline-block
+      -webkit-border-radius: 14px
+      -moz-border-radius: 14px
+      border-radius: 14px
+      background-color: #e11356
+    h1:before
+      content: ' '
+      width: 14px
+      height: 14px
+      display: inline-block
+      margin-right: 30px
+      background-color: #e11356
+      -webkit-border-radius: 14px
+      -moz-border-radius: 14px
+      border-radius: 14px
+  .wr-title:after
+    content: ' '
+    position: absolute
+    z-index: -99
+    width: 1000px
+    height: 1px
+    top: 17px
+    left: 90px
+    display: inline-block
+    background-color: #fff
+    border-top: 1px solid #dbdbdb
+    border-bottom: 1px solid #6f6f6f
+  .catalog-item
+    width: 25%
+    margin: 0 0 20px 0
+    position: relative
+    width: 275px
+    height: 270px
+    img
+      width: 100%
+      height: 100%
+    a
+      width: 224px
+      position: absolute
+      box-sizing: border-box
+      top: 100px
+      left: 50%
+      margin-left: -112px
+      z-index: 20
+      padding: 19px 0
+      border: 2px solid #e5e5e5
+      font-size: 24px
+      text-transform: uppercase
+      text-decoration: none
+      color: #fff
+    a:hover
+      background-color: rgba(121,121,121,0.73)
+    a:hover:after
+      display: none
+
+  .catalog-item:before
+    width: 224px
+    height: 24px
+    content: ' '
+    position: absolute
+    z-index: 20
+    display: inline-block
+    top: 175px
+    left: 50%
+    margin-left: -112px
+    background-image: url(../images/catalog-line.png)
+    background-repeat: no-repeat
+  .catalog-item:after
+      content: ' '
+      width: 275px
+      height: 270px
+      position: absolute
+      z-index: 10
+      top: 0
+      left: 0
+      background: rgba(121,121,121,0.73)
+      transition: all 0.2s linear
+  .catalog-item-hover:after
+    animation: hide  50.0s infinite ease-in-out
+  .catalog-item-hover:before
+    display: none
+@keyframes hide
+  from
+    background: rgba(121,121,121,0.73)
+  1%
+    background: rgba(121,121,121,0.0)
+  to
+    background: rgba(121,121,121,0.0)
+
+/* end home-catalog style*/
+/* start order style*/
+.order
+  max-width: $large
+  margin: 0 auto
+  padding: 13px 10px
+  box-sizing: border-box
+  overflow: hidden
+  background-color: #3b3b3b
+  .order-col
+    width: 33.3%
+    position: relative
+    float: left
+    font-size: 24px
+    line-height: 26px
+    color: #fff
+    text-align: center
+  .order-col:first-child
+    text-align: left
+  .order-col:first-child:after
+    content: ' '
+    width: 10px
+    height: 130px
+    position: absolute
+    right: 0
+    top: -37px
+    transform: rotate(45deg)
+    background-color: #fff
+  .order-col:last-child
+    text-align: right
+  .order-col:last-child:after
+    content: ' '
+    width: 10px
+    height: 130px
+    position: absolute
+    left: 0
+    top: -37px
+    transform: rotate(-45deg)
+    background-color: #fff
+/* end order style*/
+/* start services style */
+.services
+  max-width: $large
+  margin: 0 auto 25px auto
+  text-align: center
+  overflow: hidden
+  .wr-services-title
+    max-width: 537px
+    margin: 0 auto
+  h1
+    display: inline-block
+    position: relative
+    z-index: -99
+    margin-bottom: 30px
+    padding: 10px 80px
+    font-size: 24px
+    color: #fff
+    background-color: #e11356
+    box-shadow: 0px 0px 3px 4px rgba(0,0,0,0.22)
+  h1:after
+    content: ' '
+    width: 40px
+    height: 103px
+    position: absolute
+    left: -42px
+    top: -58px
+    transform: rotate(-45deg)
+    background-color: #e11356
+    box-shadow: -4px -4px 3px 1px rgba(0, 0, 4, 0.22)
+  h1:before
+    content: ' '
+    width: 40px
+    height: 103px
+    position: absolute
+    right: -42px
+    top: -58px
+    transform: rotate(45deg)
+    background-color: #e11356
+    box-shadow: 4px -4px 3px 1px rgba(0, 0, 4, 0.22)
+.services-item
+  width: 16.66%
+  float: left
+  img
+    margin-bottom: 10px
+  h2
+    font-size: 24px
+    text-transform: uppercase
+    color: #686868
+    margin-bottom: 10px
+  span
+    font-size: 16px
+    color: #686868
+/* end services style */
+/* start home-seles style*/
+.home-seles
+  max-width: $large
+  margin: 0 auto 30px auto
+  overflow: hidden
+  .wr-title
+    width: 90%
+    margin: 0 auto 27px auto
+    text-align: center
+    position: relative
+    h1
+      display: inline-block
+      padding: 8px 56px
+      font-size: 24px
+      text-transform: uppercase
+      color: #4b4b4b
+      background-color: #fff
+      border: 2px solid #c2c2c2
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+  .wr-title:after
+    content: ' '
+    position: absolute
+    z-index: -99
+    width: 100%
+    height: 1px
+    top: 20px
+    left: 0
+    display: inline-block
+    background-color: #fff
+    border-top: 1px solid #dbdbdb
+    border-bottom: 1px solid #6f6f6f
+
+.wrseles-slot
+  padding: 0 20px
+  box-sizing: border-box
+  float: left
+.seles-slot
+  padding: 11px 10px
+  border: 1px solid #c0c0c0
+  text-align: center
+  position: relative
+  overflow: hidden
+  .seles-order
+    padding: 5px 40px
+    font-weight: bold
+    color: #fff
+    background-color: #d11150
+    position: absolute
+    left: -48px
+    top: 28px
+    transform: rotate(-45deg)
+  .seles-slot-row
+    overflow: hidden
+    margin-bottom: 15px
+    .seles-slot-img
+      width: 330px
+      height: 250px
+      margin-bottom: 10px
+    .seles-slot-name
+      display: inline-block
+      padding: 13px 13px 0 13px
+      font-size: 20px
+      font-weight: 700
+      text-transform: uppercase
+      text-decoration: none
+      color: #d11150
+      border-top: 1px solid #b8b8b8
+    .price
+      font-size: 23px
+      color: #1c1c1c
+      b
+        color: #d11150
+    .seles-slot-order-btn
+      display: inline-block
+      float: left
+      margin-left: 14px
+      padding: 10px 20px
+      font-size: 18px
+      text-transform: uppercase
+      text-decoration: none
+      color: #fff
+      background-color: #d11150
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+      transition: all 0.4s linear
+    .seles-slot-order-btn:hover
+      background-color: #a10035
+    .seles-slot-calc-btn
+      float: right
+      display: inline-block
+      margin-right: 14px
+      padding: 10px 20px
+      font-size: 18px
+      text-transform: uppercase
+      text-decoration: none
+      color: #fff
+      background-color: #2d2b2c
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+      transition: all 0.2s linear
+    .seles-slot-calc-btn:hover
+      background-color: #413d3f
+
+  .seles-slot-skill
+    width: 280px
+    margin: 0 auto 10px auto
+    padding: 17px 5px
+    border: 1px dashed #b6b6b6
+    .seles-slot-skill-row
+      margin-bottom: 10px
+      font-size: 15px
+      color: #232323
+.wr-seles-slots
+  padding: 0 30px
+  position: relative
+  .slick-arrow
+    width: 22px
+    height: 77px
+    position: absolute
+    top: 50%
+    margin-top: -36px
+    text-indent: -999px
+    background-repeat: no-repeat
+    background: none
+    border: none
+    font-size: 0
+    cursor: pointer
+  .slick-prev
+    left: 0
+    background-image: url(../images/pre-btn.png)
+  .slick-next
+    right: 0
+    background-image: url(../images/next-btn.png)
+
+/* end home-seles style*/
+/* start wr-home-dispatch style*/
+.wr-home-dispatch
+  background-color: #d24a43
+  margin-bottom: 35px
+  .home-dispatch
+    max-width: $large
+    margin: 0 auto
+    padding: 11px
+    overflow: hidden
+    background-image: url(../images/big-mail-icon.png)
+    background-position-x: right
+    background-position-y: -10px
+    background-repeat: no-repeat
+    .wr-home-dispatch-caption
+      float: left
+      font-size: 25px
+      color: #fff
+      b
+        font-weight: bold
+    .dispatch-form
+      width: 500px
+      float: right
+      margin: 9px
+      .dispatch-email
+        width: 275px
+        float: left
+        padding: 5px 10px
+        -webkit-border-radius: 1px
+        -moz-border-radius: 1px
+        border-radius: 1px
+      .dispatch-submit
+        display: none
+
+/* end wr-home-dispatch style*/
+/* start home-contact style*/
+.home-contact
+  max-width: $large
+  margin: 0 auto
+  overflow: hidden
+  .wr-title
+    position: relative
+    text-align: center
+    margin-bottom: -23px
+    h1
+      margin: 0 0 10px 0
+      padding: 0 10px
+      overflow: hidden
+      display: inline-block
+      font-size: 30px
+      text-transform: uppercase
+      color: #4b4b4b
+      background: #fff
+    h1:after
+      content: ' '
+      width: 14px
+      height: 14px
+      margin-left: 30px
+      display: inline-block
+      -webkit-border-radius: 14px
+      -moz-border-radius: 14px
+      border-radius: 14px
+      background-color: #e11356
+    h1:before
+      content: ' '
+      width: 14px
+      height: 14px
+      display: inline-block
+      margin-right: 30px
+      background-color: #e11356
+      -webkit-border-radius: 14px
+      -moz-border-radius: 14px
+      border-radius: 14px
+  .wr-title:after
+    content: ' '
+    position: absolute
+    z-index: -99
+    width: 100%
+    height: 2px
+    top: 17px
+    left: 0
+    display: inline-block
+    background-color: #9f9f9f
+
+
+.wr-contact-form
+  overflow: hidden
+  padding: 25px 20px
+  border: 1px solid #9f9f9f
+  border-top: none
+
+.home-contact-form
+  width: 450px
+  float: left
+  background-color: #2b2b2b
+  background-image: url(../images/home-contact-form-bg.png)
+  background-repeat: no-repeat
+  -ms-background-position-x: 325px
+  background-position-x: 325px
+  -ms-background-position-y: 20px
+  background-position-y: 20px
+  border: 4px solid #d11150
+  padding: 19px 18px
+  .home-contact-form-col
+    width: 280px
+    float: left
+    .required:after
+      content: '*'
+      display: inline-block
+      margin-left: 1px
+      color: #fff
+    .home-contact-form-row
+      margin-bottom: 17px
+      text-align: center
+      overflow: hidden
+      label
+        display: none
+      span
+        font-size: 11px
+        color: #fff
+      input
+        width: 245px
+        float: left
+        padding: 2px 6px
+        font-size: 18px
+      input[type="submit"]
+        width: auto
+        float: none
+        padding: 12px 17px
+        display: inline-block
+        color: #fff
+        background-color: #ee145b
+        border: none
+        -webkit-border-radius: 4px
+        -moz-border-radius: 4px
+        border-radius: 4px
+        cursor: pointer
+        transition: all 0.2s linear
+      input[type="submit"]:hover
+        background-color: #a10035
+
+    .has-error
+      input[type="text"]
+        border: 1px solid #ee145b
+      input[type="tel"]
+        border: 1px solid #ee145b
+      input[type="email"]
+        border: 1px solid #ee145b
+    .has-success
+      input[type="text"]
+        border: 1px solid #3c763d
+      input[type="tel"]
+        border: 1px solid #3c763d
+      input[type="email"]
+        border: 1px solid #3c763d
+
+.contact-form-img
+  min-height: 280px
+  float: right
+  img
+    border: 4px solid #d11150
+
+/* end home-contact style*/
+/* start home-material style*/
+.home-material
+  max-width: $large
+  margin: 0 auto 55px auto
+  padding: 0 0 2px 0
+  overflow: hidden
+  .wr-title
+    max-width: 537px
+    margin: 0 auto
+    h1
+      display: inline-block
+      position: relative
+      z-index: -99
+      margin-bottom: 30px
+      padding: 10px 80px
+      font-size: 24px
+      color: #fff
+      background-color: #e11356
+      box-shadow: 0px 0px 3px 4px rgba(0,0,0,0.22)
+    h1:after
+      content: ' '
+      width: 40px
+      height: 103px
+      position: absolute
+      left: -42px
+      top: -58px
+      transform: rotate(-45deg)
+      background-color: #e11356
+      box-shadow: -4px -4px 3px 1px rgba(0, 0, 4, 0.22)
+    h1:before
+      content: ' '
+      width: 40px
+      height: 103px
+      position: absolute
+      right: -42px
+      top: -58px
+      transform: rotate(45deg)
+      background-color: #e11356
+      box-shadow: 4px -4px 3px 1px rgba(0, 0, 4, 0.22)
+  .wr-material-item
+    width: 20%
+    float: left
+    .material-item
+      margin: 0 10px
+      padding: 10px 0 20px 0
+      border: 2px solid #afafaf
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+      .material-img
+        min-height: 199px
+        text-align: center
+        img
+          display: inline-block
+      .material-name
+        margin-bottom: 25px
+        text-align: center
+        position: relative
+        h3
+          a
+            display: inline-block
+            padding: 5px 15px 5px 15px
+            font-size: 18px
+            text-transform: uppercase
+            text-decoration: none
+            color: #fff
+            background-color: #fa4b4b
+            -webkit-border-radius: 2px
+            -moz-border-radius: 2px
+            border-radius: 2px
+            transition: all 0.2s linear
+          a:hover
+            background-color: #d04242
+        h3:before
+          content: ' '
+          width: 42px
+          height: 1px
+          position: absolute
+          display: block
+          left: 0
+          top: 10px
+          background-color: #646464
+          border-top: 1px solid #8a8a8a
+          border-bottom: 1px solid #8a8a8a
+        h3:after
+          content: ' '
+          width: 42px
+          height: 1px
+          position: absolute
+          display: block
+          right: 0
+          top: 10px
+          background-color: #646464
+          border-top: 1px solid #8a8a8a
+          border-bottom: 1px solid #8a8a8a
+      .material-description
+        height: 70px
+        overflow: hidden
+        text-align: center
+        span
+          font-size: 10px
+          text-transform: uppercase
+          color: #5b5b5b
+
+/* end home-material style*/
+/* start home-calc style*/
+.home-calc
+  max-width: 1400px
+  margin: 0 auto 30px auto
+  overflow: hidden
+  .wr-title
+    position: relative
+    text-align: center
+    margin-bottom: 10px
+    h1
+      margin: 0 0 10px 0
+      padding: 0 10px
+      overflow: hidden
+      display: inline-block
+      font-size: 30px
+      text-transform: uppercase
+      color: #4b4b4b
+      background: #fff
+    h1:after
+      content: ' '
+      width: 14px
+      height: 14px
+      margin-left: 30px
+      display: inline-block
+      -webkit-border-radius: 14px
+      -moz-border-radius: 14px
+      border-radius: 14px
+      background-color: #e11356
+    h1:before
+      content: ' '
+      width: 14px
+      height: 14px
+      display: inline-block
+      margin-right: 30px
+      background-color: #e11356
+      -webkit-border-radius: 14px
+      -moz-border-radius: 14px
+      border-radius: 14px
+  .wr-title:after
+    content: ' '
+    position: absolute
+    z-index: -99
+    width: 100%
+    height: 2px
+    top: 14px
+    left: 0
+    display: inline-block
+    background-color: #9f9f9f
+.wr-calc
+  padding: 30px 100px
+  overflow: hidden
+  background-image: url(../images/calc-bg.jpg)
+  background-repeat: no-repeat
+  -webkit-background-size: cover
+  background-size: cover
+  .calc-text
+    width: 600px
+    float: left
+    text-align: left
+    h2
+      margin-bottom: 35px
+      font-size: 27px
+      text-transform: uppercase
+      color: #e11356
+
+    p
+      margin-bottom: 20px
+      font-size: 20px
+      line-height: 31px
+      color: #fff
+
+      span
+        color: #e11356
+      a
+        color: #89e2ff
+        text-decoration: none
+      a:hover
+        color: #74c7e2
+        text-decoration: underline
+  .calc-img
+    width: 320px
+    float: right
+    overflow: hidden
+    text-align: center
+    img
+      width: 100%
+      margin-bottom: 10px
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+    .calc-btn
+      width: 100%
+      display: inline-block
+      padding: 20px 0
+      font-size: 21px
+      color: #fff
+      text-decoration: none
+      text-transform: uppercase
+      background-color: #e11356
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+      transition: all 0.2s linear
+    .calc-btn:hover
+      background-color: #a10035
+/* end home-calc style*/
+/* start home-suppliers style*/
+.home-suppliers
+  max-width: $large
+  margin: 0 auto 30px auto
+  overflow: hidden
+  .wr-title
+    position: relative
+    text-align: center
+
+  h1
+    margin: 0 0 10px 0
+    padding: 0 10px
+    overflow: hidden
+    display: inline-block
+    font-size: 30px
+    text-transform: uppercase
+    color: #4b4b4b
+    background: #fff
+  .wr-supplier
+    float: left
+    margin-right: 10px
+    border: 2px solid #737373
+    -webkit-border-radius: 2px
+    -moz-border-radius: 2px
+    border-radius: 2px
+  .wr-supplier:last-child
+      margin-right: 0
+
+/* end home-suppliers style*/
+/* start footer style*/
+#footer
+  padding: 10px 0 5px 0
+  background-color: #282828
+  .footer
+    max-width: $large
+    margin: 0 auto
+    overflow: hidden
+    .footer-top
+      overflow: hidden
+    .footer-logo
+      width: 154px
+      height: 91px
+      float: left
+      margin: 0 70px 50px 0
+      background-image: url(../images/footer-logo.png)
+      background-repeat: no-repeat
+    .footer-address
+      width: 360px
+      float: left
+      margin-right: 80px
+      margin-top: 40px
+      span
+        font-size: 18px
+        color: #cecece
+      span:before
+        content: ' '
+        width: 14px
+        height: 21px
+        margin: 0 7px 0 0
+        display: inline-block
+        background-image: url(../images/address-icon.png)
+        background-repeat: no-repeat
+    .footer-contact-info
+      float: left
+      margin-top: 40px
+      color: #fff
+      font-size: 18px
+      .footer-phone
+        margin-bottom: 5px
+      .footer-phone:before
+        content: ' '
+        width: 15px
+        height: 17px
+        margin: 0 7px 0 0
+        display: inline-block
+        background-image: url(../images/footer-phone-icon.png)
+        background-repeat: no-repeat
+      .footer-mail:before
+        content: ' '
+        width: 16px
+        height: 10px
+        margin: 0 7px 0 0
+        display: inline-block
+        background-image: url(../images/footer-mail-icon.png)
+        background-repeat: no-repeat
+    .footer-order-btn
+      float: right
+      padding: 14px 25px
+      margin-top: 40px
+      font-size: 16px
+      text-decoration: none
+      color: #fff
+      background-color: #e11356
+      -webkit-border-radius: 1px
+      -moz-border-radius: 1px
+      border-radius: 1px
+      transition: all 0.2s linear
+    .footer-order-btn:hover
+      background-color: #a10035
+    .footer-soc-bar
+      float: right
+      overflow: hidden
+      span
+        margin-top: 20px
+        margin-right: 12px
+        display: inline-block
+        font-size: 12px
+        color: #949494
+      .footer-soc-btn-list
+        float: right
+        overflow: hidden
+        li
+          float: left
+          a
+            width: 34px
+            height: 34px
+            display: inline-block
+            margin-right: 3px
+            background-repeat: no-repeat
+        .footer-soc-btn-vk
+          a
+            background-image: url(../images/footer-soc-btn-vk.png)
+        .footer-soc-btn-od
+          a
+            background-image: url(../images/footer-soc-btn-od.png)
+        .footer-soc-btn-twitter
+          a
+            background-image: url(../images/footer-soc-btn-twitter.png)
+        .footer-soc-btn-g-plus
+          a
+            background-image: url(../images/footer-soc-btn-g-plus.png)
+    .footer-copyright
+      float: left
+      margin-top: 20px
+      span
+        font-size: 12px
+        color: #949494
+/* end footer style*/
+/* start catalog-page-content style*/
+.page-block
+  position: relative
+  .wr-title
+    overflow: hidden
+    margin-bottom: 25px
+    text-align: center
+    position: relative
+    h1
+      float: left
+      display: inline-block
+      padding: 8px 56px
+      font-size: 24px
+      text-transform: uppercase
+      color: #4b4b4b
+      background-color: #fff
+      border: 2px solid #c2c2c2
+      -webkit-border-radius: 2px
+      -moz-border-radius: 2px
+      border-radius: 2px
+      position: relative
+    h1:after
+      content: ' '
+      width: 14px
+      height: 14px
+      display: inline-block
+      position: absolute
+      right: -7px
+      top: 14px
+      background-color: #e11356
+      -webkit-border-radius: 14px
+      border-radius: 14px
+  .wr-title:after
+    content: ' '
+    width: 600px
+    float: left
+    height: 1px
+    margin: 18px 10px
+    display: inline-block
+    background-color: #fff
+    border-top: 1px solid #dbdbdb
+    border-bottom: 1px solid #6f6f6f
+.catalog-page-content
+  max-width: $large
+  margin: 0 auto
+  .catalog
+    .wr-product-items
+      margin-bottom: 20px
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      .product-item
+        width: 270px
+        margin-bottom: 25px
+        padding-bottom: 10px
+        border: 1px solid #e0e0e0
+        float: left
+        transition: all 0.2s linear
+        .wr-product-img
+          margin: 0 auto
+          padding: 4px
+          border: 1px solid #e0e0e0
+          text-align: center
+          img
+            display: inline-block
+        .wr-product-name
+          text-align: center
+          margin-top: -14px
+          margin-bottom: 20px
+          a
+            padding: 8px 10px
+            font-size: 18px
+            text-decoration: none
+            text-transform: uppercase
+            color: #fff
+            background-color: #e11356
+            transition: all 0.4s linear
+          a:hover
+            background-color: #a10035
+        .wr-product-name:after
+          content: ' '
+          display: inline-block
+          clear: both
+        .wr-product-rang
+          width: 100%
+          margin-bottom: 20px
+          .star-rang-lis
+            overflow: hidden
+            margin-left: 20px
+            li
+              float: left
+              margin-right: 2px
+        .wr-product-descriptions
+          width: 237px
+          overflow: hidden
+          margin: 0 auto 13px auto
+          padding: 0 0 5px 0
+          border-bottom: 1px solid #d5d5d5
+          p
+            font-size: 16px
+            line-height: 17px
+            color: #7e7f84
+        .wr-product-sel
+          .product-prise
+            float: left
+            margin-left: 20px
+            font-size: 23px
+            color: #e11356
+          .order-btn
+            float: right
+            margin-right: 20px
+            padding: 5px 14px
+            font-size: 16px
+            text-transform: uppercase
+            text-decoration: none
+            color: #fff
+            background-color: #e11356
+            transition: all 0.2s linear
+            -webkit-border-radius: 4px
+            -moz-border-radius: 4px
+            border-radius: 4px
+          .order-btn:hover
+            background-color: #a10035
+      .product-item:hover
+        box-shadow: 0px 8px 16px rgba(0,0,0,.18)
+        transform: translate3d(0,-2px,0)
+    .product-pagination
+      text-align: center
+      margin-bottom: 20px
+      .product-pagination-list
+        display: inline-block
+        li
+          float: left
+          margin-right: 7px
+          a
+            width: 20px
+            padding: 5px 1px
+            display: inline-block
+            font-size: 13px
+            text-decoration: none
+            color: #e11356
+            border: 1px solid #e7a5ab
+            -webkit-border-radius: 20px
+            -moz-border-radius: 20px
+            border-radius: 20px
+          a:hover
+            color: #a10035
+            border-color: #a10035
+
+.catalog-page-content
+  display: block!important
+.catalog-card-content
+  display: block!important
+.wr-reviews
+  display: none
+.wr-catalog-page-banner
+  padding: 17px 0
+  background-color: #e6e6e6
+  .catalog-page-banner
+    max-width: $large
+    margin: 0 auto
+    padding: 0 5px
+    overflow: hidden
+    .wrcatalog-page-banner-img
+      float: left
+      margin: 0 40px 5px 0
+      padding: 5px
+      background-color: #fff
+      border: 1px solid #d9d9d9
+      -webkit-border-radius: 1px
+      -moz-border-radius: 1px
+      border-radius: 1px
+    img
+      min-width: 100%
+    h1
+      margin-bottom: 20px
+      font-size: 22px
+      font-weight: 900
+      color: #e11356
+    .catalog-page-banner-list
+      overflow: hidden
+      li
+        margin-bottom: 18px
+        padding-left: 20px
+        position: relative
+        span
+          font-size: 17px
+          color: #353535
+      li:before
+        content: ' '
+        width: 6px
+        height: 6px
+        display: inline-block
+        position: absolute
+        left: 0
+        top: 4px
+        background-color: #e11356
+        -webkit-border-radius: 6px
+        -moz-border-radius: 6px
+        border-radius: 6px
+/* end catalog-page-content style*/
+/* start catalog-card-content style */
+#cboxOverlay
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background-color: #000
+  opacity: 0.3
+
+.catalog-card-content
+  max-width: $large
+  margin: 0 auto
+.wr-card-info
+  overflow: hidden
+.product-galery
+  width: 670px
+  float: left
+  margin-right: 20px
+  .big-img
+    float: left
+    padding: 5px
+    border: 1px solid #d4d4d4
+    position: relative
+  .big-img:hover:before
+    opacity: 1
+  .big-img:before
+    content: 'Увеличить'
+    position: absolute
+    display: inline-block
+    padding: 20px 20px 20px 45px
+    top: 50%
+    z-index: 3
+    margin-top: -15px
+    left: 50%
+    margin-left: -75px
+    transition: all 0.4s linear
+    font-size: 16px
+    color: #de3962
+    background-color: rgba(53,53,53,0.75)
+    background-image: url(../images/zoom-incon.png)
+    background-position: 10px
+    background-repeat: no-repeat
+    border: 1px solid #de3962
+    opacity: 0
+  .thumb-img
+    float: right
+    a
+      position: relative
+      display: block
+      margin-bottom: 35px
+      padding: 3px
+      line-height: 0
+      border: 1px solid #d4d4d4
+      img
+        width: 128px
+        height: 85px
+    a:after
+      content: ' '
+      position: absolute
+      display: inline-block
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      transition: all 0.4s linear
+      background: #000
+      opacity: 0
+    a:hover:before
+      content: ' '
+      position: absolute
+      display: inline-block
+      width: 32px
+      height: 32px
+      top: 50%
+      z-index: 3
+      margin-top: -15px
+      left: 50%
+      margin-left: -16px
+      transition: all 0.4s linear
+      background-image: url(../images/zoom-incon.png)
+      background-repeat: no-repeat
+    a:hover:after
+      opacity: 0.5
+
+.product-skills
+  width: 320px
+  min-height: 316px
+  float: left
+  padding: 20px
+  border: 1px solid #d4d4d4
+  -webkit-border-radius: 2px
+  -moz-border-radius: 2px
+  border-radius: 2px
+  .product-skills-row-bdb
+    border-bottom: 1px solid #e2e2e2
+    padding-bottom: 20px
+    margin-bottom: 20px
+  .product-skills-name
+    margin-bottom: 25px
+    h2
+      font-size: 20px
+      padding-bottom: 20px
+      text-transform: uppercase
+      color: #595959
+  .product-skills-row
+    overflow: hidden
+    .skills-name
+      float: left
+      font-size: 16px
+      font-weight: bold
+      line-height: 27px
+      color: #262626
+    .skill-value
+      float: right
+      font-size: 16px
+      color: #262626
+  .product-price
+    margin-bottom: 25px
+    display: inline-block
+    font-size: 28px
+    color: #262626
+    b
+      font-weight: bold
+      color: #e11356
+  .order-btn
+    float: left
+    padding: 10px 30px
+    font-size: 18px
+    color: #fff
+    background-color: #e11356
+    text-transform: uppercase
+    text-decoration: none
+    -webkit-border-radius: 4px
+    -moz-border-radius: 4px
+    border-radius: 4px
+    transition: all 0.4s linear
+  .order-btn:hover
+    background-color: #a10035
+  .calc-btn
+    float: right
+    padding: 10px 30px
+    font-size: 18px
+    color: #fff
+    background-color: #3b3a3b
+    text-transform: uppercase
+    text-decoration: none
+    -webkit-border-radius: 4px
+    -moz-border-radius: 4px
+    border-radius: 4px
+    transition: all 0.4s linear
+  .calc-btn:hover
+    background-color: #413d3f
+.wr-card-banner-img
+  float: right
+.wr-card-sliders
+  overflow: hidden
+  margin-bottom: 50px
+.wr-card-slider-1
+  max-width: 565px
+  padding: 27px 150px 25px 20px
+  float: left
+.wr-card-slider-color
+  border: 2px solid #e11356
+  -webkit-border-radius: 4px
+  -moz-border-radius: 4px
+  border-radius: 4px
+  position: relative
+  .slider-caption
+    position: absolute
+    top: -8px
+    left: 30px
+    padding: 5px 10px
+    background-color: #fff
+    font-size: 12px
+    text-transform: uppercase
+    color: #e11356
+  .slick-prev
+    left: -20px
+    background-image: url(../images/card-slider-pre.png)
+  .slick-next
+    right: -150px
+    background-image: url(../images/card-slider-next.png)
+  .slick-arrow
+    width: 14px
+    height: 41px
+    position: absolute
+    top: 50%
+    margin-top: -20px
+    text-indent: -999px
+    background-repeat: no-repeat
+    border: none
+    font-size: 0
+    cursor: pointer
+  .slider-color-more
+    width: 95px
+    padding: 35px 0
+    margin-top: -46px
+    right: 45px
+    top: 50%
+    text-align: center
+    vertical-align: middle
+    position: absolute
+    border: 1px solid #c9c9c9
+    -webkit-border-radius: 4px
+    -moz-border-radius: 4px
+    border-radius: 4px
+    a
+      font-size: 13px
+      color: #e11356
+      text-decoration: none
+      text-transform: uppercase
+    a:hover
+      text-decoration: underline
+  .wr-color-item
+    img
+      padding: 4px
+      box-sizing: border-box
+      border: 1px solid #c6c6c6
+      -webkit-border-radius: 4px
+      -moz-border-radius: 4px
+      border-radius: 4px
+
+.wr-card-slider-2
+  width: 450px
+  float: right
+  padding: 10px 20px 10px 20px
+  box-sizing: border-box
+  .wr-color-item
+    a
+      display: inline-block
+      margin-bottom: 7px
+  .slick-next
+    right: -20px
+  .slider-color-more
+    width: 123px
+    height: 88px
+    position: absolute
+    background-color: #fff
+    top: auto
+    right: 33px
+    bottom: 21px
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,1)
+.wr-reviews
+  text-align: center
+  .title
+    margin-bottom: 10px
+    h2
+      display: inline-block
+      padding-bottom: 10px
+      font-size: 28px
+      text-transform: uppercase
+      color: #3c3c3c
+      border-bottom: 1px solid #d9d9d9
+  .wr-add-review-btn
+    margin-bottom: 20px
+    text-align: center
+    a
+      font-size: 14px
+      text-transform: uppercase
+      color: #e11356
+  .wr-review-items
+    background-color: #e2e2e2
+    .review-item
+      max-width: $large
+      margin: 0 auto
+      padding: 55px 0
+      overflow: hidden
+      .review-item-foto
+        width: 110px
+        height: 110px
+        float: left
+        margin-right: 20px
+        border: 5px solid #e11356
+        -webkit-border-radius: 55px
+        -moz-border-radius: 55px
+        border-radius: 55px
+        overflow: hidden
+      .review-item-text
+        .name
+          margin-bottom: 20px
+          font-size: 28px
+          color: #e11356
+          text-align: left
+        .text
+          text-align: left
+          font-size: 16px
+          line-height: 22px
+          color: #222
+
+.modal-review-add
+  .modal-dialog
+    padding: 20px 20px 10px 20px
+    background-color: #6b273d
+    background-image: url(../images/add-review-popap-bg.png)
+    background-repeat: no-repeat
+    -ms-background-position-x: right
+    background-position-x: right
+    border: 4px solid #949494
+    .modal-content-row
+      overflow: hidden
+      input
+        width: 335px
+        float: left
+        font-size: 22px
+        margin-bottom: 20px
+        padding: 3px 10px
+      textarea
+        width: 558px
+        padding: 10px
+        font-size: 18px
+        margin-bottom: 10px
+        box-sizing: border-box
+      input[type="submit"]
+        float: right
+        padding: 10px
+        margin-right: 40px
+        font-size: 18px
+        font-weight: bold
+        text-transform: uppercase
+        color: #6b273d
+        background: #242424
+        border: none
+        -webkit-border-radius: 4px
+        -moz-border-radius: 4px
+        border-radius: 4px
+        cursor: pointer
+        transition: all 0.2s linear
+      input[type="submit"]:hover
+        color: #792C46
+        background-color: #323232
+
+/* end catalog-card-content style */
+/* start 404 page style */
+.page-404
+  text-align: center
+  h1
+    font-size: 360px
+    font-weight: bold
+    color: #b52152
+    display: inline-block
+    position: relative
+    span
+      margin-right: -125px
+      position: absolute
+      bottom: 0
+      right: 0
+      font-size: 62px
+      color: #4f4f4f
+  .p404-description
+    width: 100%
+    margin-bottom: 20px
+    display: inline-block
+    font-size: 44px
+    text-transform: uppercase
+    color: #4f4f4f
+  .p404-link-to-home
+    font-size: 23px
+    text-transform: uppercase
+    text-decoration: none
+    color: #b52152
+  .p404-link-to-home
+    text-decoration: underline
+
+.wr-p404-bottom
+  max-width: 1500px
+  height: 360px
+  margin: 0 auto
+  padding-top: 180px
+  overflow: hidden
+  background-image: url(../images/p404-bottom-bg.png)
+  background-repeat: no-repeat
+  -webkit-background-size: cover
+  background-size: cover
+
+
+/* end 404 page style */
+.modal
+  width: 600px
+  margin: 30px auto
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1050
+  display: none
+  overflow: hidden
+  -webkit-overflow-scrolling: touch
+  outline: 0
+
+.modal-backdrop
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1040
+  background-color: #000
+
+.modal-open
+  .modal
+    overflow-x: hidden
+    overflow-y: auto
+
+.fade
+  opacity: 0
+  transition: opacity .15s linear
+.fade.in
+  opacity: 1
+
+.modal.in
+  .modal-dialog
+    transform: translate(0,0)
+
+.modal.fade
+  .modal-dialog
+    width: 600px
+    margin: 30px auto
+    position: relative
+    transform: translate(0,0)
+    .modal-content
+      position: relative
+      -webkit-background-clip: padding-box
+      background-clip: padding-box
+      border-radius: 6px
+      outline: 0
+
+
+.modal-header
+  .close
+    float: right
+  h4
+    font-size: 24px
+
+.fade.in
+  opacity: 1
+
+.modal-backdrop.in
+  filter: alpha(opacity=50)
+  opacity: 0.5
+
+.tooltip.right
+  margin-left: 3px
+  padding: 0 5px
+  .tooltip-arrow
+    top: 50%
+    left: 0
+    margin-top: -5px
+    border-width: 5px 5px 5px 0
+    border-right-color: #000
+.tooltip-inner
+  max-width: 200px
+  padding: 3px 8px
+  color: #fff
+  text-align: center
+  background-color: #000
+  border-radius: 4px
+
+.tooltip.in
+  opacity: .9
+  filter: alpha(opacity=90)
+
+
+.tooltip
+  position: absolute
+  z-index: 1070
+  display: block
+  font-style: normal
+  font-weight: normal
+  letter-spacing: normal
+  line-break: auto
+  line-height: 1.42857143
+  text-align: left
+  text-align: start
+  text-decoration: none
+  text-shadow: none
+  text-transform: none
+  white-space: normal
+  word-break: normal
+  word-spacing: normal
+  word-wrap: normal
+  font-size: 12px
+  opacity: 0
+  filter: alpha(opacity=0)
+
+@media only screen and (min-width: 1200px)
+  .wrseles-slot
+    width: 380px!important
